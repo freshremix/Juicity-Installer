@@ -51,6 +51,8 @@ echo ""
 #!/bin/bash
 
 # Install required packages
+sudo apt-get update
+sudo apt-get install -y unzip jq uuid-runtime
 
 # Detect OS and download the corresponding release
 OS=$(uname -s)
